@@ -65,7 +65,6 @@ Example: disparity image from stereo camera using SGM[1](CUDA implmentation by [
 [1] Hirschmüller, Heiko. 2007. “IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE Stereo Processing by Semi-Global Matching and Mutual Information,”
 
 ## TODO
-- [ ] Example of disparity image will be add
 - [ ] Disparity postprocessing
 - [x] SGM CUDA support
 - [ ] Python depth.cpp implementation to support the PyTorch model for depth estimation.
