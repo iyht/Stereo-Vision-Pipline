@@ -1,0 +1,6 @@
+/build
+/cmake-build-debug
+/images/left/*.png
+/images/right/*.png
+/bin
+self-supervised/

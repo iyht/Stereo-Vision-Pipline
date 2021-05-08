@@ -1,0 +1,3 @@
+[submodule "extern/libSGM"]
+	path = extern/libSGM
+	url = https://github.com/Haotian-Yang/libSGM.git

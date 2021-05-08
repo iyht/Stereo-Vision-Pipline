@@ -1,0 +1,33 @@
+%YAML:1.0
+---
+image_width: 640
+image_height: 480
+camera_name: /stereo/left
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 6.2992311514999994e+02, 0., 2.9877548566079997e+02, 0.,
+       6.4013542960159998e+02, 1.8164185562430001e+02, 0., 0., 1. ]
+distortion_model: plumb_bob
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -6.6905938100000006e-02, 1.5021961959999999e-01, 0., 0., 0. ]
+rectification_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 9.9970027050031995e-01, -1.9515331505902782e-02,
+       -1.4782455743275918e-02, 1.9592678490075090e-02,
+       9.9979500831668089e-01, 5.1057119613798800e-03,
+       1.4679785801289529e-02, -5.3938095315599561e-03,
+       9.9987769787487790e-01 ]
+projection_matrix: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [ 6.4302603267649999e+02, 0., 3.0922600936889648e+02, 0., 0.,
+       6.4302603267649999e+02, 1.7257753753662109e+02, 0., 0., 0., 1.,
+       0. ]
