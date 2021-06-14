@@ -1,6 +1,6 @@
 # StereoVision
 
-This project is a repo for stereo camera.
+This repo is a toolkit for stereo camera.
 
 ## Dependecy
 Tested with:
